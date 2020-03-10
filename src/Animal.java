@@ -9,7 +9,7 @@ public class Animal {
     private boolean hunger;
 
     public Animal(){
-        age = 0;
+        age = 5;
         hunger = true;
     }
 
@@ -27,7 +27,7 @@ public class Animal {
 
     public String toString(){
         String result = "";
-        result += "Age of animal: " + age;
+        result += "Age of animal: " + age + " Is hungry?: " + hunger + "\n";
         return result;
     }
 }

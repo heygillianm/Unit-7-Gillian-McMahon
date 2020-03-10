@@ -12,9 +12,7 @@ public class Feline extends Animal implements Comparable{
     private int age;
 
     public Feline(){
-        hunger = true;
-        simba = false;
-        age = 0;
+        super();
     }
 
     public void setAge(int age){
@@ -27,17 +25,17 @@ public class Feline extends Animal implements Comparable{
 
     public void makeKing(){
         simba = true;
-        System.out.println("Feline is now king.");
+        System.out.println("Feline is now king. \n");
     }
 
     public void eat(){
         hunger = false;
-        System.out.println("Feline has had food.");
+        System.out.println("Feline has had food.\n");
     }
 
     public int compareTo(Object o) {
         Feline obj = (Feline) o;
-        System.out.println("Difference in cat ages.");
+        System.out.println("Difference in cat ages.\n");
         return this.getAge() - obj.getAge();
     }
 
@@ -50,7 +48,7 @@ public class Feline extends Animal implements Comparable{
 
     public String toString(){
         String result = "";
-        result += "Age of feline: " + age + "\nFeline roars.";
+        result += "Age of feline: " + age + "\nFeline roars.\n";
         return result;
     }
 }

@@ -6,22 +6,29 @@ public class InheritanceTest {
     public static void main (String [] args){
         Animal bear = new Animal();
         bear.eat();
-        bear.toString();
+        System.out.println(bear.toString());
+
+        System.out.println("~~~~~~~~~~~~");
 
         Feline lion = new Feline();
         lion.setAge(1);
-        lion.getAge();
+        System.out.println(lion.getAge());
         lion.makeKing();
-        lion.toString();
+        System.out.println(lion.toString());
+
+        System.out.println("~~~~~~~~~~~~~~");
 
         Cat bella = new Cat();
         bella.setBreed("Flat Face Cat");
-        bella.getBreed();
+        bella.isKitten();
+        System.out.println(bella.getBreed());
         bella.hasFluff();
-        bella.toString();
+        System.out.println(bella.toString());
+
+        System.out.println("~~~~~~~~~~~~~~~~");
 
         Animal tiger = new Feline();
-        tiger.equals(lion);
-        tiger.toString();
+        System.out.println(tiger.equals(lion));
+        System.out.println(tiger.toString());
     }
 }

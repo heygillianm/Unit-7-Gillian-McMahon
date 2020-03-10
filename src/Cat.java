@@ -10,6 +10,7 @@ public class Cat extends Feline implements Comparable{
     private boolean fluff;
 
     public Cat(){
+        super();
         name = "Calico";
         kitten = true;
         fluff = false;
@@ -51,8 +52,8 @@ public class Cat extends Feline implements Comparable{
 
     public String toString(){
         String result = "";
-        result += "Cat name: " + name + "\nIs a kitten?: " + kitten;
-        result += "Is fluffy?: " + fluff;
+        result += "Cat breed: " + name + "\nIs a kitten?: " + kitten;
+        result += "\nIs fluffy?: " + fluff + "\n";
         return result;
     }
 }

@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50899ec-8f3e-4500-83f6-1dd351556309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/APStudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Feline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InheritanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BurgByteStarter/BurgerByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BurgByteStarter/BurgerByteRefactored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BurgByteStarter/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BurgByteStarter/FryCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BurgByteStarter/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Yacht.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InheritanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InheritanceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +31,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YlS2jdE2FEi8wMS95AI2JVLLgz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.InheritanceTest">
     <configuration name="APStudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -84,7 +94,20 @@
       <option name="presentableId" value="Default" />
       <updated>1583515482331</updated>
     </task>
+    <task id="LOCAL-00001" summary="New Unit">
+      <created>1583810667832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583810667832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="New Unit" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Unit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583768750902">
@@ -95,29 +118,45 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="537" y="143" key="#com.intellij.ide.util.MemberChooser/0.23.1440.812@0.23.1440.812" timestamp="1583769625200" />
+    <state x="513" y="318" width="425" height="227" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583858258803">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="513" y="318" width="425" height="227" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.814@0.23.1440.814" timestamp="1583858258803" />
     <state x="462" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583769458365">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="462" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.812@0.23.1440.812" timestamp="1583769458365" />
-    <state width="1333" height="195" key="GridCell.Tab.0.bottom" timestamp="1583810623959">
+    <state x="310" y="29" key="CommitChangelistDialog2" timestamp="1583810667475">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="195" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1583810623959" />
-    <state width="1333" height="195" key="GridCell.Tab.0.center" timestamp="1583810623957">
+    <state x="310" y="29" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1583810667475" />
+    <state width="1333" height="195" key="GridCell.Tab.0.bottom" timestamp="1583854701882">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="195" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1583810623957" />
-    <state width="1333" height="195" key="GridCell.Tab.0.left" timestamp="1583810623956">
+    <state width="1333" height="195" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1583854701882" />
+    <state width="1333" height="195" key="GridCell.Tab.0.center" timestamp="1583854701881">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="195" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1583810623956" />
-    <state width="1333" height="195" key="GridCell.Tab.0.right" timestamp="1583810623958">
+    <state width="1333" height="195" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1583854701881" />
+    <state width="1333" height="195" key="GridCell.Tab.0.left" timestamp="1583854701880">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1333" height="195" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1583810623958" />
+    <state width="1333" height="195" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1583854701880" />
+    <state width="1333" height="195" key="GridCell.Tab.0.right" timestamp="1583854701881">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1333" height="195" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1583854701881" />
+    <state x="324" y="166" key="Vcs.Push.Dialog.v2" timestamp="1583810669868">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="324" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1583810669868" />
     <state x="393" y="103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583768111861">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="393" y="103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.812@0.23.1440.812" timestamp="1583768111861" />
+    <state x="388" y="158" width="672" height="678" key="search.everywhere.popup" timestamp="1583858573160">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="388" y="158" width="672" height="678" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1583858573160" />
   </component>
 </project>
